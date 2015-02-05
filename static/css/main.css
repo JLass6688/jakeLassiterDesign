@@ -233,7 +233,7 @@ nav a#pull img {
 /***************************** HEADER ********************************/
 /* line 165, ../sass/main.scss */
 #home-page {
-  background-image: url("/img/bkg-pattern.jpg");
+  background-image: url("img/bkg-pattern.jpg");
   background-repeat: repeat;
 }
 
@@ -273,20 +273,20 @@ div.module.parallax {
 
 /* line 206, ../sass/main.scss */
 div.module.parallax-1 {
-  background-image: url("/img/work-transition.jpg");
+  background-image: url("img/work-transition.jpg");
   max-width: 100%;
 }
 
 /* line 211, ../sass/main.scss */
 div.module.parallax-2 {
-  background-image: url("/img/about-transition.jpg");
+  background-image: url("img/about-transition.jpg");
   max-width: 100%;
 }
 
 /*************************************WORK SECTION**********************************/
 /* line 219, ../sass/main.scss */
 #work-section {
-  background-image: url("/img/bkg-pattern.jpg");
+  background-image: url("img/bkg-pattern.jpg");
   background-repeat: repeat;
 }
 
@@ -413,7 +413,7 @@ div.module.parallax-2 {
 /*************************************ABOUT SECTION**********************************/
 /* line 337, ../sass/main.scss */
 #about-section {
-  background-image: url("/img/bkg-pattern.jpg");
+  background-image: url("img/bkg-pattern.jpg");
   background-repeat: repeat;
 }
 
@@ -494,7 +494,7 @@ p.quote-name {
 .about-graphic ul {
   max-width: 55%;
   margin: 0 auto;
-  list-style-image: url("/img/bullet.png");
+  list-style-image: url("img/bullet.png");
   padding-left: 29%;
 }
 /* line 412, ../sass/main.scss */
@@ -513,7 +513,7 @@ p.quote-name {
 /*************************************CONTACT SECTION**********************************/
 /* line 429, ../sass/main.scss */
 #contact-section {
-  background-image: url("/img/bkg-contact.jpg");
+  background-image: url("img/bkg-contact.jpg");
   background-repeat: repeat;
 }
 /* line 432, ../sass/main.scss */
