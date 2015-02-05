@@ -105,6 +105,7 @@ nav {
           margin-left: 25px;
           text-decoration: none;
           opacity: 0;
+          outline: none;
         }  
         h1 {
           font-size: 12pt;  
@@ -117,6 +118,7 @@ nav {
             display: block;  
             margin: 0 auto;
             width: 60px;  
+            outline: none;
             text-align: center;  
             text-decoration: none;  
             line-height: 50px;
