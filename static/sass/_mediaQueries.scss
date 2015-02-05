@@ -1,0 +1,126 @@
+// 	MEDIA QUERIES
+
+
+
+/****************************************** 1000 BREAK POINT ***************************/
+
+@media only screen and (max-width : 1000px) {
+	.work{
+		.caption-wrapper {
+			float: none;
+			margin: 0 auto 25px;
+			width: 487px;
+			max-width: 100%;
+			img {
+				width: 100%;
+			}
+			div.overbox {
+				width: 100%;
+			}
+		}
+	}
+
+
+}
+
+
+/****************************************** 800 BREAK POINT ***************************/
+
+@media only screen and (max-width : 800px) {
+	.about-graphic {
+		div.graphic-container {
+			float: none;
+			margin: 0 auto 75px;
+			max-width: 100%;
+		}
+	}
+
+
+}
+
+
+/****************************************** 480 BREAK POINT ***************************/
+
+// ---------------------NAVIGATION-------------------------
+
+@media only screen and (max-width : 480px) {  
+    nav {  
+        border-bottom: 0;  
+        ul {  
+	        display: none;  
+	        height: auto;
+	        width: 100%;
+	        margin: 0;  
+	    }  
+	    li {
+	    	float: none;
+	    	width: 100%;
+	    	display: block;
+	    	background: rgba(255,255,255,0.95); 
+	    	border-bottom: 1px solid #bfbfbf;
+	    }
+	    a {  
+	        text-align: center;  
+	        width: 100%;
+	    }
+	    a.menu-home {
+	    	display: none;
+	    }  
+	    a#pull {  
+	        display: block;  
+	        background: rgba(255,255,255,0.95);  
+	        width: 100%;  
+	        padding: 10px 0 0 10px;  
+	        text-align: left;
+	    }  
+	    a#pull:after {  
+	        content:"";  
+	        background: url('nav-icon.png') no-repeat;  
+	        width: 30px;  
+	        height: 30px;  
+	        display: inline-block;  
+	        position: absolute;  
+	        right: 15px;  
+	        top: 10px;  
+	    } 
+    }  
+
+//----------------------HEADER-------------------------
+    #header-main {
+    	img {
+    		float: none;
+    		width: 100%;
+    	}
+    }
+
+//----------------------DRIBBBLE H2-------------------
+    .dribbble-cta{
+	    	h2 {
+	    		font-size: 20px;
+	    	}
+	    }
+
+//----------------------ABOUT TEXT-------------------
+    .about {
+	    	p {
+	    		font-size: 18px;
+	    	}
+	    }
+
+//----------------------WORK HOVER CAPTIONS------------
+	.work {
+		.caption-wrapper {
+			img {
+				-moz-transform: scale(1);  
+		        -o-transform: scale(1);  
+		        -webkit-transform: scale(1);  
+		        transform: scale(1);
+			}
+			div.overbox {
+				display: none;
+			}
+		}
+	}
+
+
+}  
