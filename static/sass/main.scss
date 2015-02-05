@@ -163,7 +163,7 @@ nav {
 
 
 #home-page {
-    background-image: url("/img/bkg-pattern.jpg");
+    background-image: url("img/bkg-pattern.jpg");
     background-repeat: repeat;
 }
 
@@ -204,12 +204,12 @@ div.module.parallax {
 }
 
 div.module.parallax-1 {
-  background-image: url("/img/work-transition.jpg");
+  background-image: url("img/work-transition.jpg");
   max-width: 100%;
 }
 
 div.module.parallax-2 {
-  background-image: url("/img/about-transition.jpg");
+  background-image: url("img/about-transition.jpg");
   max-width: 100%;
 }
 
@@ -217,7 +217,7 @@ div.module.parallax-2 {
 /*************************************WORK SECTION**********************************/
 
 #work-section {
-    background-image: url("/img/bkg-pattern.jpg");
+    background-image: url("img/bkg-pattern.jpg");
     background-repeat: repeat;
 }
 
@@ -335,7 +335,7 @@ div.module.parallax-2 {
 /*************************************ABOUT SECTION**********************************/
 
 #about-section {
-    background-image: url("/img/bkg-pattern.jpg");
+    background-image: url("img/bkg-pattern.jpg");
     background-repeat: repeat;
 }
 
@@ -406,7 +406,7 @@ p.quote-name {
     ul {
         max-width: 55%;
         margin: 0 auto;
-        list-style-image: url('/img/bullet.png');
+        list-style-image: url('img/bullet.png');
         padding-left: 29%;
     }
     div.graphic-container {
@@ -427,7 +427,7 @@ p.quote-name {
 /*************************************CONTACT SECTION**********************************/
 
 #contact-section {
-    background-image: url("/img/bkg-contact.jpg");
+    background-image: url("img/bkg-contact.jpg");
     background-repeat: repeat;
     p {
         font-family: $prim_font;
