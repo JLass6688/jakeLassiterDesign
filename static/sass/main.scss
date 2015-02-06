@@ -83,9 +83,6 @@ nav {
     height: 50px;  
     width: 100%;  
     background: rgba(255,255,255,0.95);
-    font-size: 12pt;  
-    font-family: $prim_font;  
-    font-weight: 400;  
     position: fixed; 
     z-index: 2000; 
         ul {  
@@ -98,6 +95,9 @@ nav {
             display: inline;  
             float: left;  
             width: 150px;
+            font-size: 14pt;  
+            font-family: $prim_font;  
+            font-weight: 700;  
         }
         a.menu-home {
           float: left;
@@ -107,17 +107,11 @@ nav {
           opacity: 0;
           outline: none;
         }  
-        h1 {
-          font-size: 12pt;  
-          font-family: $prim_font;  
-          font-weight: 700; 
-          color: #232323;
-        }
         .menu-links a {  
             color: #232323; 
             display: block;  
             margin: 0 auto;
-            width: 60px;  
+            width: 70px;  
             outline: none;
             text-align: center;  
             text-decoration: none;  
@@ -191,6 +185,9 @@ nav {
     width: 70px;
     margin: 0 auto;
     padding: 50px 0 100px;
+    a {
+      outline: none;
+    }
 }
 
 

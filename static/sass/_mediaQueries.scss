@@ -27,6 +27,17 @@
 /****************************************** 800 BREAK POINT ***************************/
 
 @media only screen and (max-width : 800px) {
+	a.menu-home {
+		display: none;
+	}
+
+
+}
+
+
+/****************************************** 600 BREAK POINT ***************************/
+
+@media only screen and (max-width : 600px) {
 	.about-graphic {
 		div.graphic-container {
 			float: none;
@@ -37,7 +48,6 @@
 
 
 }
-
 
 /****************************************** 480 BREAK POINT ***************************/
 
