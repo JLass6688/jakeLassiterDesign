@@ -113,9 +113,15 @@
 //----------------------ABOUT TEXT-------------------
     .about {
 	    	p {
-	    		font-size: 18px;
+	    		font-size: 20px;
 	    	}
-	    }
+	    	.einstein-pic {
+			    max-width: 80px;
+			    img {
+			      width: 80px;
+			    }
+			}
+	}
 
 //----------------------WORK HOVER CAPTIONS------------
 	.work {

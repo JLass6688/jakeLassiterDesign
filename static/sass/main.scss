@@ -241,7 +241,7 @@ div.module.parallax-2 {
     padding-bottom: 100px;
     h2 {
         font-family: $prim_font;
-        font-size: 24px;
+        font-size: 24pt;
         font-weight: 400;
         text-align: center;
     }
@@ -310,7 +310,7 @@ div.module.parallax-2 {
     }
     h1 {
         font-family: $prim_font;
-        font-size: 36px;
+        font-size: 36pt;
         font-weight: 900;
         text-align: center;
         color: #fff;
@@ -318,7 +318,7 @@ div.module.parallax-2 {
     }
     p {
         font-family: $prim_font;
-        font-size: 18px;
+        font-size: 18pt;
         font-weight: 400;
         text-align: center;
         color: #fff;
@@ -344,14 +344,14 @@ div.module.parallax-2 {
     margin: 0 auto;
     h1 {
         font-family: $prim_font;
-        font-size: 60px;
+        font-size: 60pt;
         font-weight: 900;
         text-align: center;
         margin-bottom: 25px;
     }
     p {
         font-family: $prim_font;
-        font-size: 30px;
+        font-size: 30pt;
         font-weight: 400;
         text-align: center;
     }
@@ -359,25 +359,28 @@ div.module.parallax-2 {
 
 p.quote {
     font-style: italic;
-    font-size: 22px;
+    font-size: 30pt;
 }
 
 p.quote-name {
-    font-size: 22px;
+    font-size: 30pt;
 }
 .personal-text {
-    margin-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .einstein-pic {
-    max-width: 86px;
-    margin: 0 auto 85px;
+    max-width: 180px;
+    margin: 0 auto 100px;
+    img {
+      width: 180px;
+    }
 }
 
 //--------------------DIVIDER
 .divider {
     max-width: 466px;
-    margin: 0 auto 85px;
+    margin: 0 auto 100px;
 }
 
 //--------------------SKILLS, TOOLS, SERVICES SECTION
@@ -389,7 +392,7 @@ p.quote-name {
     padding-bottom: 200px;
     h1 {
         font-family: $prim_font;
-        font-size: 60px;
+        font-size: 60pt;
         font-weight: 900;
         text-align: center;
         margin-top: 25px;
@@ -397,7 +400,7 @@ p.quote-name {
     }
     li {
         font-family: $prim_font;
-        font-size: 30px;
+        font-size: 30pt;
         font-weight: 400;
         text-align: left;
         max-width: 100%;
@@ -430,7 +433,7 @@ p.quote-name {
     background-repeat: repeat;
     p {
         font-family: $prim_font;
-        font-size: 18px;
+        font-size: 18pt;
         font-weight: 400;
         text-align: center;
         color: #fff;
@@ -438,7 +441,7 @@ p.quote-name {
     }
     h3 {
         font-family: $prim_font;
-        font-size: 10px;
+        font-size: 10pt;
         font-weight: 300;
         text-align: center;
         color: #fff;
