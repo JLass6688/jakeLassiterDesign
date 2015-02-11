@@ -38,7 +38,7 @@ $(document).ready(function(){
 /*======================LOADING ANIMATIONS==============================*/
 
 $(window).scroll(function() {
-        $('.graphic-container').each(function(){
+        $('.einstein-pic').each(function(){
         var imagePos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();

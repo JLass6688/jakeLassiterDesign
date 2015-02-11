@@ -382,7 +382,7 @@ div.module.parallax-2 {
     }
     .personal-text {
       max-width: 73%;
-      margin: 0 auto 100px;
+      margin: 0 auto 150px;
       p {
         text-align: left;
       }
@@ -402,6 +402,7 @@ p.quote-name {
 .einstein-pic {
     max-width: 180px;
     margin: 0 auto 100px;
+    visibility: hidden;
     img {
       width: 180px;
     }
