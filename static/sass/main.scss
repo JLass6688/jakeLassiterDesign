@@ -369,7 +369,7 @@ div.module.parallax-2 {
     }
     .skills-text {
       width: 240px;
-      margin: 0 auto;
+      margin: 0 auto 100px;
     }
     li {
       font-family: $prim_font;
@@ -378,9 +378,10 @@ div.module.parallax-2 {
       text-align: left;
     }
     .personal-text {
-      max-width: 50%;
+      max-width: 73%;
+      margin: 0 auto 100px;
       p {
-        text-align: right;
+        text-align: left;
       }
     }
 }
