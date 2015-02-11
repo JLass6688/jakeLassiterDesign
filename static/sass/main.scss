@@ -310,7 +310,7 @@ div.module.parallax-2 {
     }
     h1 {
         font-family: $prim_font;
-        font-size: 36pt;
+        font-size: 24pt;
         font-weight: 900;
         text-align: center;
         color: #fff;
@@ -318,7 +318,7 @@ div.module.parallax-2 {
     }
     p {
         font-family: $prim_font;
-        font-size: 18pt;
+        font-size: 14pt;
         font-weight: 400;
         text-align: center;
         color: #fff;
@@ -342,18 +342,46 @@ div.module.parallax-2 {
 .about {
     max-width: 90%;
     margin: 0 auto;
-    h1 {
+    overflow: auto;
+    h2 {
         font-family: $prim_font;
-        font-size: 60pt;
+        font-size: 24pt;
         font-weight: 900;
         text-align: center;
         margin-bottom: 25px;
+        border-top: 2px solid #0f4745;
+        border-bottom: 2px solid #0f4745;
     }
     p {
         font-family: $prim_font;
-        font-size: 30pt;
+        font-size: 22pt;
         font-weight: 400;
         text-align: center;
+    }
+    .work-text { 
+        padding-bottom: 25px;
+        max-width: 80%;
+        margin: 0 auto;
+        p {
+          text-align: left;
+          margin-bottom: 50px;
+        }
+    }
+    .skills-text {
+      width: 240px;
+      margin: 0 auto;
+    }
+    li {
+      font-family: $prim_font;
+      font-size: 22pt;
+      font-weight: 400;
+      text-align: left;
+    }
+    .personal-text {
+      max-width: 50%;
+      p {
+        text-align: right;
+      }
     }
 }
 
@@ -365,9 +393,7 @@ p.quote {
 p.quote-name {
     font-size: 30pt;
 }
-.personal-text {
-    padding-bottom: 100px;
-}
+
 
 .einstein-pic {
     max-width: 180px;
