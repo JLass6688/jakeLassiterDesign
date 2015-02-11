@@ -368,14 +368,17 @@ div.module.parallax-2 {
         }
     }
     .skills-text {
-      width: 240px;
+      width: 265px;
       margin: 0 auto 100px;
     }
     li {
       font-family: $prim_font;
-      font-size: 22pt;
+      font-size: 18pt;
       font-weight: 400;
-      text-align: left;
+      text-align: center;
+    }
+    h3 {
+      font-weight: 900;
     }
     .personal-text {
       max-width: 73%;
