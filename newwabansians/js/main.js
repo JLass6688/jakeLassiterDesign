@@ -19,5 +19,11 @@ $(window).resize(function(){
     }  
 });  
 
-/* ================MAIN BKG===============================*/
+/* ================Story Feed Load===============================*/
 
+$("#hide-me").hide();
+
+$(".button").click (function( event ){
+    event.preventDefault();
+    $("#hide-me").show(2000, "swing");
+});
