@@ -610,6 +610,7 @@ nav a#pull {
   text-decoration: underline;
 }
 
+
 .story-feed {
   margin-left: auto;
   margin-right: auto;
@@ -629,13 +630,11 @@ nav a#pull {
   text-decoration: none;
 }
 
-.story-feed p a {
+.story-feed p {
   color: #1eeac6;
+  padding-top: 25px;
 }
 
-.story-feed p a:hover {
-  text-decoration: underline;
-}
 
 .story-feed h1:hover {
   background: #1eeac6;
@@ -682,9 +681,14 @@ nav a#pull {
   margin-top: 0;
   margin-bottom: 0;
   background: black;
-  height: 215px;
+  height: 190px;
   width: 215px;
   opacity: 0;
+}
+
+#story-wrapper {
+  width: 100%;
+  overflow: auto;
 }
 
 .story-feed p:hover {
@@ -752,12 +756,24 @@ nav a#pull {
     .story-feed div.article-9 {
       margin-right: 15px;
     }
+
+    .story-feed {
+      width: 690px;
+      max-width: 100%;
+    }
+
   }
 
 
 @media only screen and (max-width : 860px) {  
     .stories {
       margin-top: 10%;
+    }
+  }
+
+  @media only screen and (max-width : 700px) {  
+    .story-feed {
+      width: 480px;
     }
   }
 
